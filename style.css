@@ -46,7 +46,7 @@ body{
 
 .content{
   cursor: pointer;
-  opacity: 0;
+  opacity: 1;
 }
 
 .content h1{
