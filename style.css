@@ -132,3 +132,7 @@ body{
     top: -28px;
   }
 }
+
+.flex-container{
+  display: flex;
+}
