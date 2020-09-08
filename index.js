@@ -1,1 +1,3 @@
-console.log('initial');
+function abrirLink(link){
+  window.open(link);
+}
