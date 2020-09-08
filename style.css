@@ -43,9 +43,12 @@ body{
 .timeline ul li:last-child{
   margin-bottom: 0;
 }
+
 .content{
   cursor: pointer;
+  opacity: 0;
 }
+
 .content h1{
   font-weight: 500;
   font-size: 24px;
@@ -62,6 +65,18 @@ body{
   font-size: 13px;
   font-weight: 300;
   margin-bottom: 10px;
+}
+
+.content[data-scroll="in"]{
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
 }
 
 @media only screen and (min-width: 769px){
