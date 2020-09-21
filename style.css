@@ -78,6 +78,15 @@ body{
     opacity: 1;
   }
 }
+.tituloImg{
+  font-weight: bold;
+  font-size: 40px;
+}
+.tituloImgLGBT{
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 10%;
+}
 
 @media only screen and (min-width: 769px){
   .timeline::before{
@@ -135,4 +144,12 @@ body{
 
 .flex-container{
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
 }
